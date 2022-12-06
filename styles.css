@@ -1,0 +1,167 @@
+body {
+    background-image: url("liberen-a-juan.png");
+    background-size: auto;
+}
+
+.container-ventana {
+    height: 97vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ventana {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana2 {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana3 {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana4 {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana5 {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana6 {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana-inicial {
+    width: 400px;
+    height: 177px;
+    background-color: rgb(141, 224, 247);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ventana-acepto {
+    width: 400px;
+    height: 200px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px; 
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.pregunta {
+    margin-bottom: 40px;  
+    text-align: center;
+}
+
+.button-si {
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+
+.button-si:hover {
+    width: 105px;
+    height: 32px;
+    background-color: rgb(4, 176, 4);
+    cursor: pointer;
+}
+
+.button-no {
+    border-radius: 30px;
+    width: 100px;
+    height: 31px;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+img {
+    width: 135px;
+}
